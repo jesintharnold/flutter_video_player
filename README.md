@@ -3,6 +3,9 @@
  A Flutter based Video Player Package inspired from Mx-Player.
 flutter_video_player based on Dart build using existing Video_Player and Wrapping with High-Level PlayBack access such as Zooming, Aspect Control,Preferred-Rotation and much more.
 ``Note:`` Tested only on Android 
+###
+Devolepers are Welcomed for Fork/Pull Request.Newer Features are Welcomed !!!
+
 
 
 

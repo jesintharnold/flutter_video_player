@@ -1,3 +1,4 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - Initial release
 
-* TODO: Describe initial release.
+* TODO: Adding New Features such as Brightness and Volume control on Screen using Gesture-Detector.Expanding Packages to IOS Devices.
+
