@@ -1,6 +1,6 @@
 name: video_player_flutter
 description: A flutter video player based on Dart build using existing Video_Player library with High Level access providing zooming,Aspect-ratio controls etc.
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/jesintharnold/flutter_video_player
 
 environment:

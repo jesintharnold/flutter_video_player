@@ -4,5 +4,7 @@
 
 ## [0.1.1] - added Proper Documentation
 
+## [0.1.2] - Removed All the Dead Codes
+
 * TODO: Adding New Features such as Brightness and Volume control on Screen using Gesture-Detector.Expanding Packages to IOS Devices.
 
