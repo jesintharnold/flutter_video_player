@@ -163,7 +163,7 @@ class _FlutterProgressBarState extends State<FlutterProgressBar> {
                         });
                       } else {
                         widget.controller.setVolume(widget.progressvol);
-                        print(widget.progressvol);
+
                         setState(() {
                           isMute = false;
                         });

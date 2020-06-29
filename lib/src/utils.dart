@@ -47,9 +47,9 @@ class Aspect with ChangeNotifier {
   }
 
   void addCnt() {
-    print(tap_cnt);
+
     tap_cnt += 1;
-    print(tap_cnt);
+
     notifyListeners();
   }
 }

@@ -101,7 +101,7 @@ class _FluttervideoplayerState extends State<Fluttervideoplayer> {
                                   onScaleUpdate: (ScaleUpdateDetails setails) {
                                     _scaleFactor =
                                         _baseScaleFactor * setails.scale;
-                                    print(_scaleFactor);
+
                                     setState(() {});
                                   },
                                   child: Center(
