@@ -17,8 +17,8 @@ class Fluttervideoplayer extends StatefulWidget {
   bool enableLooping;
   bool enableScaling;
   bool allowonlylandscape=false;
-  bool autorotation;
-  Fluttervideoplayer({@required this.controller,@required this.flutterVolume,@required this.enableLooping,@required this.enableScaling,this.autorotation,this.allowonlylandscape}):assert(controller !=null);
+
+  Fluttervideoplayer({@required this.controller,@required this.flutterVolume,@required this.enableLooping,@required this.enableScaling,this.allowonlylandscape}):assert(controller !=null);
 
   @override
   _FluttervideoplayerState createState() => _FluttervideoplayerState();

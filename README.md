@@ -66,8 +66,11 @@ class _VideoAppState extends State<VideoApp> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.network("https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4");//Specify the url/filePath/asset Path.
+    _controller = VideoPlayerController.network("https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4");//Specify the url/filePath/asset Path .
+                                                                                                                             //No Need to initalize or Dispose VideoController.
+
 }
+
 @override
   void dispose() {
     super.dispose();
