@@ -50,7 +50,7 @@ The Package is not tested on Ios Devices.
 #Example
 ```dart
 
-import 'package:flutter_video_player/fluttervideoplayer.dart';
+import 'package:flutter_video_player/flutter_video_player.dart';
 import 'package:video_player/video_player.dart';
 import 'package:flutter/material.dart';
 
