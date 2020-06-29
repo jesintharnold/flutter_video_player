@@ -50,8 +50,9 @@ class Aspect with ChangeNotifier{
        tap_cnt=0;
        return 16/9;
      }
-     notifyListeners();
+
   }
+  // ignore: non_constant_identifier_names
   get tap_name{
     return list_tap_cnt[tap_cnt];
   }

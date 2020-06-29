@@ -181,6 +181,7 @@ class _FluttervideoplayerState extends State<Fluttervideoplayer> {
                               iconSize:30,
                               onPressed: (){
                                 if(_mediaorientation()==true){
+                                  // ignore: unnecessary_statements
                                   widget.allowonlylandscape?null:set_potrait();
                                 }else{
                                   Set_landscape();

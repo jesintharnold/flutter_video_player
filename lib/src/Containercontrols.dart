@@ -252,7 +252,7 @@ class progressFiller extends CustomPainter{
       RRect.fromRectAndRadius(
         Rect.fromPoints(
           Offset(0.0,size.height/2),//TO control the position of slider in the container
-          Offset(size.width, size.height/2+5.0),//TO control the position of slider in the container
+          Offset(size.width, size.height/2+height),//TO control the position of slider in the container
         ),
         Radius.circular(5.0),//To make end's of slider to be circular
       ),
@@ -264,7 +264,7 @@ class progressFiller extends CustomPainter{
         RRect.fromRectAndRadius(
           Rect.fromPoints(
             Offset(0.0,size.height/2),
-            Offset(playful, size.height/2+5.0),
+            Offset(playful, size.height/2+height),
           ),
           Radius.circular(5.0),
         ),
