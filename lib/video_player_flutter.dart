@@ -3,7 +3,7 @@ library fluttervideoplayer;
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_video_player/src/Containercontrols.dart';
+import 'package:video_player_flutter/src/Containercontrols.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
 import 'package:flutter/material.dart';
