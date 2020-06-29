@@ -6,15 +6,16 @@ import '../src/utils.dart';
 import 'package:screen/screen.dart';
 
 
-class flutterProgressBar extends StatefulWidget {
-  VideoPlayerController controller;
+// ignore: must_be_immutable
+class FlutterProgressBar extends StatefulWidget {
+  final VideoPlayerController controller;
   double progressvol;
-  flutterProgressBar({this.controller,this.progressvol});
+  FlutterProgressBar({this.controller,this.progressvol});
   @override
-  _flutterProgressBarState createState() => _flutterProgressBarState();
+  _FlutterProgressBarState createState() => _FlutterProgressBarState();
 }
 
-class _flutterProgressBarState extends State<flutterProgressBar> {
+class _FlutterProgressBarState extends State<FlutterProgressBar> {
 
   @override
   void initState() {

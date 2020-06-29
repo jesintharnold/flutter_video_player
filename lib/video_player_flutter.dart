@@ -10,20 +10,21 @@ import 'package:flutter/material.dart';
 import './src/utils.dart';
 
 
-class fluttervideoplayer extends StatefulWidget {
+// ignore: must_be_immutable
+class Fluttervideoplayer extends StatefulWidget {
   VideoPlayerController controller;
   final double flutterVolume;
   bool enableLooping;
   bool enableScaling;
   bool allowonlylandscape=false;
   bool autorotation;
-  fluttervideoplayer({@required this.controller,@required this.flutterVolume,@required this.enableLooping,@required this.enableScaling,this.autorotation,this.allowonlylandscape}):assert(controller !=null);
+  Fluttervideoplayer({@required this.controller,@required this.flutterVolume,@required this.enableLooping,@required this.enableScaling,this.autorotation,this.allowonlylandscape}):assert(controller !=null);
 
   @override
-  _fluttervideoplayerState createState() => _fluttervideoplayerState();
+  _FluttervideoplayerState createState() => _FluttervideoplayerState();
 }
 
-class _fluttervideoplayerState extends State<fluttervideoplayer> {
+class _FluttervideoplayerState extends State<Fluttervideoplayer> {
 
   double _scaleFactor = 1.0;
   double _baseScaleFactor = 1.0;
@@ -67,7 +68,8 @@ class _fluttervideoplayerState extends State<fluttervideoplayer> {
 
   }
 
-  void set_landscape(){
+  // ignore: non_constant_identifier_names
+  void Set_landscape(){
 
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.landscapeLeft,
@@ -76,6 +78,7 @@ class _fluttervideoplayerState extends State<fluttervideoplayer> {
     ]);
   }
 
+  // ignore: non_constant_identifier_names
   void set_potrait(){
 
 
@@ -180,7 +183,7 @@ class _fluttervideoplayerState extends State<fluttervideoplayer> {
                                 if(_mediaorientation()==true){
                                   widget.allowonlylandscape?null:set_potrait();
                                 }else{
-                                  set_landscape();
+                                  Set_landscape();
                                 }
 
 
@@ -196,7 +199,7 @@ class _fluttervideoplayerState extends State<fluttervideoplayer> {
                           child: AnimatedOpacity(
                               duration:Duration(milliseconds:500),
                               opacity:_hidebar?0.0:1.0,
-                              child: flutterProgressBar(controller:widget.controller,progressvol:widget.flutterVolume,)
+                              child: FlutterProgressBar(controller:widget.controller,progressvol:widget.flutterVolume,)
                           ),
                         ),
 

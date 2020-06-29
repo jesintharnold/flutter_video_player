@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 class Aspect with ChangeNotifier{
 
+  // ignore: non_constant_identifier_names
   int tap_cnt=0;
+  // ignore: non_constant_identifier_names
   List list_tap_cnt=[
     "16/9",
      "1:1",
@@ -13,6 +15,7 @@ class Aspect with ChangeNotifier{
      "2.39/1",
      "5/4"
    ];
+  // ignore: non_constant_identifier_names
   get tap_count{
 
      if(tap_cnt==0){

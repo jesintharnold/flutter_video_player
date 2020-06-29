@@ -31,7 +31,7 @@ class _VideoAppState extends State<VideoApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: fluttervideoplayer(controller:_controller,enableLooping:true,enableScaling:true,flutterVolume:0.5,allowonlylandscape:false,),
+      home: Fluttervideoplayer(controller:_controller,enableLooping:true,enableScaling:true,flutterVolume:0.5,allowonlylandscape:false,),
 
     );
   }
