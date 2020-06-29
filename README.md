@@ -23,7 +23,7 @@ Developer are Welcomed for Fork/Pull Request.Newer Features are Welcomed !!
 First,Add the following as dependancy in ``pubspec.yaml``
 ```dart
 dependencies:
-  flutter_video_player: <latest_version>
+  video_player_flutter: <latest_version>
   video_player: <latest_version>
   ```
   # Android
