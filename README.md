@@ -47,7 +47,7 @@ dependencies:
 # IOS Warning 
 The Package is not tested on Ios Devices.
 
-#Example
+# Example
 ```dart
 
 import 'package:flutter_video_player/video_player_flutter.dart';
