@@ -11,7 +11,7 @@ Developer are Welcomed for Fork/Pull Request.Newer Features are Welcomed !!
 
 
 # Demo
-
+![Demo](https://github.com/jesintharnold/flutter_video_player/tree/master/assets/flutter_video_player_demo.mp4)
 
 # Features
 *  Video Zooming / Scaling  
