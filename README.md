@@ -1,3 +1,5 @@
+[![Demo](https://img.shields.io/badge/PACKAGE-Video__player__flutter-blue)](https://pub.dev/packages/video_player_flutter)
+
 # Flutter Video Player Package
 ### 
  A Flutter based Video Player Package inspired from Mx-Player.
